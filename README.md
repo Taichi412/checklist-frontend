@@ -1,3 +1,53 @@
+# 🛏️ Checklist App - Frontend (React)
+
+ホテル清掃スタッフ向けに開発した、客室の状態や清掃進捗を一目で管理できるチェックリストアプリのフロントエンドです。  
+Reactを使って構築し、JWTによるログイン機能や、施設切り替え、状態アイコン表示などの機能を実装しています。
+
+---
+
+## 📸 スクリーンショット
+
+![checklist-app-screenshot](./screenshot.png) <!-- 必要なら画像を追加 -->
+
+---
+
+## 🚀 デモ
+
+🔗 [デモページを見る](https://your-demo-url.com)（※デプロイしている場合）
+
+---
+
+## 🔧 主な機能
+
+- ✅ サインアップ／ログイン機能（JWT）
+- 🏨 施設切り替え（例：ガレリア / テラス）
+- 🛏️ 部屋ごとのチェックリスト表示と更新
+- 🟢 清掃状態に応じた色分け・ステータスアイコン表示
+- 🧾 モーダルで各タスクの個別チェックが可能
+- 🍪 CookieではなくローカルストレージでJWT管理
+- 🔒 認証が必要なページへのアクセス制限
+
+---
+
+## 🛠 使用技術
+
+| 技術         | 内容                                         |
+|--------------|----------------------------------------------|
+| React        | UI構築                                       |
+| React Router | ページルーティング                           |
+| Axios        | API通信（JWTトークン付き）                   |
+| CSS Modules  | スタイル（App.css, Modal.css など）          |
+| LocalStorage | JWTトークン保存と自動認証ヘッダー設定       |
+
+---
+
+## 🏁 セットアップ手順（ローカル環境）
+
+```bash
+git clone https://github.com/Taichi412/checklist-frontend.git
+cd checklist-frontend
+npm install
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
